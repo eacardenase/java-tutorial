@@ -1,9 +1,15 @@
 public class Main {
     public static void main(String[] args) {
-        int myAge = 26;
-        int myGirlfriendAge = myAge - 2;
-        String name = "Edwin";
-        System.out.println("Hi, mi name is " + name + " and I'm " + myAge + " years old.");
-        System.out.println("My girlfriend is " + myGirlfriendAge + " years old.");
+        byte myAge = 26;
+        long viewsCount = 3_123_456_789L;
+        float price = 10.99F;
+        char letter = 'E';
+        boolean amIAlive = true;
+
+        System.out.println("Byte: " + myAge);
+        System.out.println("Long: " + viewsCount);
+        System.out.println("Float: " + price);
+        System.out.println("Boolean: " + amIAlive);
+        System.out.println("Char: " + letter);
     }
 }
