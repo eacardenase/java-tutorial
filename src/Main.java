@@ -3,17 +3,12 @@ import java.util.Date;
 
 public class Main {
     public static void main(String[] args) {
-//        int[] myArray = new int[5];
-//        myArray[0] = 1;
-//        myArray[1] = 2;
-//        myArray[2] = 3;
-//        myArray[3] = 4;
-//        myArray[4] = 5;
+//        int[][] numbers = new int[3][3];
 
-        int[] myArray = { 5, 2, 1, 4, 3 };
-        Arrays.sort(myArray);
+        int[][] numbers = { { 0, 0, 0}, {0, 0, 0} };
 
-        System.out.println(Arrays.toString(myArray));
-        System.out.println(myArray.length);
+        numbers[0][0] = 1;
+
+        System.out.println(Arrays.deepToString(numbers));
     }
 }
