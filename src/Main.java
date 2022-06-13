@@ -5,15 +5,9 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        int temperature = 12;
 
-        if (temperature > 30) {
-            System.out.println("It's a hot day");
-            System.out.println("Drink plenty of water");
-        } else if (temperature <= 30 && temperature >= 20) {
-            System.out.println("It's a nice day");
-        } else {
-            System.out.println("It's cold");
+        for (int i = 0; i < 5; i++) {
+            System.out.println("Hello world number " + i);
         }
     }
 }
