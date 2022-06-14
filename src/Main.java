@@ -5,9 +5,10 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-
-        for (int i = 0; i < 5; i++) {
-            System.out.println("Hello world number " + i);
+        int counter = 5;
+        while (counter > 0) {
+            System.out.println("Hello world number " + counter);
+            counter--;
         }
     }
 }
